@@ -1,1 +1,68 @@
+<doc type HTML>
+<html>
+ <head>
+        <meta charset="utf-8">
+        <title>Quiz</title>
+    </head>
 
+<body>
+
+<h1>Quiz</h1>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cat_and_dog_standoff_%283926784260%29.jpg/220px-Cat_and_dog_standoff_%283926784260%29.jpg"
+
+<video width="200" autoplay>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+</video>
+
+
+<video width="200" autoplay>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<video width="200" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+
+<hr></hr>
+
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Isabella"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Hahnfeld"><br><br>
+  </form>
+  
+  
+  <form action= "ihahnfeld@student.antilles.vi" method= "post" enctype= "text/plain">
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email">
+</form>
+  
+  <form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="image 1">Image 1</label>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="image 2">Image 2</label>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="image">Image 3</label>
+</form>
+  
+  <form>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+
+
+
+
+</body>
+ 
+</html>
